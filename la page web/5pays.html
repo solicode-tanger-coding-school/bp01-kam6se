@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 5 Pays</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <h1>
+        <em>Les 5 pays</em>
+    </h1>
+
+    <div id="pays-1">
+        <h1>
+            <em><strong>Inde</strong></em>
+        </h1>
+        <p>
+            <img src="Taj-Mahal-2.webp" width="500" height="400">
+        </p>
+        <p>
+            L'Inde (en anglais : India), historiquement et constitutionnellement aussi appelé le Bharat (en hindi : भारत / Bhārat) et en forme longue 
+            la république de l'Inde (en hindi : भारत गणराज्य / Bhārat Gaṇarājya ; en anglais : Republic of India), est un pays d'Asie du Sud.
+            Sa capitale est New Delhi.
+        </p>
+        <ul>
+            <li>Forme de l'État : République fédérale et parlementaire</li>
+            <li>Présidente : Droupadi Murmu</li>
+            <li>Capitale : New Delhi</li>
+            <li>Superficie totale : 3 287 263 km²</li>
+        </ul>
+        <table>
+            <tr>
+                <td>Superficie</td>
+                <td>Ville</td>
+                <td>Régime</td>
+            </tr>
+            <tr>
+                <td>3,287 millions km²</td>
+                <td>7 935 villes</td>
+                <td>République fédérale</td>
+            </tr>
+        </table>
+        <button id="like-Inde-btn" onclick="addNewLikeInde()">likes</button>
+        <p id="like-Inde">0 like</p>
+    </div>
+
+    <div id="pays-2">
+        <h1>
+            <em><strong>Maroc</strong></em>
+        </h1>
+        <p>
+            <img src="morocco-2349647_960_720.jpg" width="500" height="400">
+        </p>
+        <p>
+            Le Maroc, pays d'Afrique du Nord sur le littoral de l'Atlantique et de la Méditerranée, se distingue par ses influences berbères, 
+            arabes et européennes. La capitale est Rabat.
+        </p>
+        <ul>
+            <li>Capitale : Rabat</li>
+            <li>Devise : Dirham marocain</li>
+            <li>Langues officielles : Arabe, Amazighe</li>
+            <li>Roi : Mohammed VI</li>
+        </ul>
+        <table>
+            <tr>
+                <td>Superficie</td>
+                <td>Ville</td>
+                <td>Régime</td>
+            </tr>
+            <tr>
+                <td>446.550 km²</td>
+                <td>1 500 villes</td>
+                <td>Monarchie constitutionnelle</td>
+            </tr>
+        </table>
+        <button onclick="addNewLikeMaroc()">likes</button>
+        <p id="like-maroc">0 like</p>
+    </div>
+
+    <div id="pays-3">
+        <h1>
+            <em><strong>Australie</strong></em>
+        </h1>
+        <p>
+            <img src="australie.jpg" width="500" height="400">
+        </p>
+        <p>
+            L'Australie est un pays et continent entouré par les océans Indien et Pacifique. Ses principales villes sont Sydney, Melbourne, et Canberra.
+        </p>
+        <ul>
+            <li>Capitale : Canberra</li>
+            <li>Population : 26,01 millions</li>
+            <li>Régime présidentiel</li>
+            <li>Roi : Charles III</li>
+        </ul>
+        <table>
+            <tr>
+                <td>Superficie</td>
+                <td>Ville</td>
+                <td>Régime</td>
+            </tr>
+            <tr>
+                <td>7,741 millions km²</td>
+                <td>86 villes</td>
+                <td>Monarchie constitutionnelle</td>
+            </tr>
+        </table>
+        <button onclick="addNewLikeAustralie()">likes</button>
+        <p id="like-australie">0 like</p>
+    </div>
+
+    <div id="pays-4">
+        <h1>
+            <em><strong>Senegal</strong></em>
+        </h1>
+        <p>
+            <img src="senegal.jpeg" width="500" height="400">
+        </p>
+        <p>
+            Le Sénégal, en forme longue la république du Sénégal, est un État d'Afrique de l'Ouest bordé à l'ouest par l'Océan Atlantique.
+        </p>
+        <ul>
+            <li>Capitale : Dakar</li>
+            <li>Président : Bassirou Diomaye Faye</li>
+            <li>Langue officielle : Français</li>
+            <li>Population : 17,32 millions (2022)</li>
+        </ul>
+        <table>
+            <tr>
+                <td>Superficie</td>
+                <td>Ville</td>
+                <td>Régime</td>
+            </tr>
+            <tr>
+                <td>196.190 km²</td>
+                <td>113 communes de ville</td>
+                <td>Régime présidentiel</td>
+            </tr>
+        </table>
+        <button onclick="addNewLikeSenegal()">likes</button>
+        <p id="like-senegal">0 like</p>
+    </div>
+
+    <div id="pays-5">
+        <h1>
+            <em><strong>Écosse</strong></em>
+        </h1>
+        <p>
+            <img src="ecosse.jpeg" width="500" height="400">
+        </p>
+        <p>
+            Située sur une colline, Édimbourg est la capitale de l'Écosse. Le pays a une riche histoire avec des châteaux anciens.
+        </p>
+        <ul>
+            <li>Capitale : Édimbourg</li>
+            <li>Population : 5,454 millions</li>
+            <li>Animal emblématique : Licorne</li>
+            <li>Langues officielles : Scots, Gaélique, Anglais</li>
+        </ul>
+        <table>
+            <tr>
+                <td>Superficie</td>
+                <td>Ville</td>
+                <td>Régime</td>
+            </tr>
+            <tr>
+                <td>77.910 km²</td>
+                <td>
+                    <ol>
+                        <li>4 grandes villes</li>
+                        <li>6 villes secondaires</li>
+                    </ol>
+                </td>
+                <td>Régime présidentiel</td>
+            </tr>
+        </table>
+        <button id="like-ecosse-btn" onclick="addNewLikeEcosse()">likes</button>
+        <p id="like-ecosse">0 like</p>
+    </div>
+
+    <script>
+        // Initialize likes counters for each country
+        let likesInde = 0;
+        let likesMaroc = 0;
+        let likesAustralie = 0;
+        let likesSenegal = 0;
+        let likesEcosse = 0;
+
+        // Like function for India
+        function addNewLikeInde() {
+            likesInde++;
+            document.getElementById("like-Inde").innerText = likesInde + " likes";
+        }
+
+        // Like function for Morocco
+        function addNewLikeMaroc() {
+            likesMaroc++;
+            document.getElementById("like-maroc").innerText = likesMaroc + " likes";
+        }
+
+        // Like function for Australia
+        function addNewLikeAustralie() {
+            likesAustralie++;
+            document.getElementById("like-australie").innerText = likesAustralie + " likes";
+        }
+
+        // Like function for Senegal
+        function addNewLikeSenegal() {
+            likesSenegal++;
+            document.getElementById("like-senegal").innerText = likesSenegal + " likes";
+        }
+
+        // Like function for Scotland
+        function addNewLikeEcosse() {
+            likesEcosse++;
+            document.getElementById("like-ecosse").innerText = likesEcosse + " likes";
+        }
+    </script>
+
+</body>
+</html>

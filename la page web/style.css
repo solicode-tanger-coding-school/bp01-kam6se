@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #81a6ec92;
+  color: #0c0c0c;
+  
+}
+
+button {
+ border-color: hotpink;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+
+h1,h2 {
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  color: #01060b;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  width: 80%;
+  margin: 0 auto 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+em, strong {
+  color: #04030f;
+}
+
+img {
+  display: block;
+  margin: 50px auto;
+  border: 5px solid #fefefee9;
+  border-radius: 30px;
+  width: 600px; /* Largeur de l'image */
+  height: 400px; /* Hauteur de l'image */
+  
+}
+
+
+ul {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #a648adb7;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ffffff;
+  font-size: 1.2em;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* Style des tables */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #208ad0d4;
+}
+
+table, th, td {
+  border: 2px solid #2c3e50;
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+table th {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+}
+
+/* Ajustement pour la table des villes */
+ol {
+  padding-left: 20px;
+}
+
+@media(max-width: 768px) {
+  p, ul, table {
+      width: 95%;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+  }
+}
